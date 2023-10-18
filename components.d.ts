@@ -9,6 +9,7 @@ declare module 'vue' {
   export interface GlobalComponents {
     ElButton: typeof import('element-plus/es')['ElButton']
     ElSwitch: typeof import('element-plus/es')['ElSwitch']
+    KeyWordSearch: typeof import('./src/components/KeyWordSearch/KeyWordSearch.vue')['default']
     Mapcontainer: typeof import('./src/components/MapContainer/Mapcontainer.vue')['default']
     MapContainer: typeof import('./src/components/MapContainer/MapContainer.vue')['default']
     Mycontainer: typeof import('./src/components/MapContainer/Mycontainer.vue')['default']
